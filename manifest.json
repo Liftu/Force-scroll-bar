@@ -2,9 +2,13 @@
   "manifest_version": 3,
   "name": "Force scroll bar",
   "version": "1.0",
-  "id": "7762491a-b056-4875-81ba-13ffd859f0a5",
   "description": "Force show the scroll bar of any website.",
   "homepage_url": "https://github.com/Liftu/Force-scroll-bar",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{7762491a-b056-4875-81ba-13ffd859f0a5}"
+    }
+  },
   "icons": {
     "48": "icons/scroll-bar-48.png"
   },
