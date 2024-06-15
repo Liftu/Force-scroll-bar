@@ -21,4 +21,4 @@ async function ForceShowScrollBar(tab) {
     }
 }
 
-browser.browserAction.onClicked.addListener(ForceShowScrollBar);
+browser.action.onClicked.addListener(ForceShowScrollBar);
