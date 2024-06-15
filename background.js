@@ -17,7 +17,7 @@ async function ForceShowScrollBar(tab) {
             }
         });
     } catch (err) {
-        console.error(`failed to retore scroll bar: ${err}`);
+        console.error(`failed to restore scroll bar: ${err}`);
     }
 }
 
