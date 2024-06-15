@@ -12,6 +12,14 @@ async function ForceShowScrollBar(tab) {
                     document.documentElement.style.overflow = "";
                     forced = true;
                 }
+                if (document.body.style.position == "fixed") {
+                    document.body.style.position = "";
+                    forced = true;
+                }
+                if (document.documentElement.style.position == "fixed") {
+                    document.documentElement.style.position = "";
+                    forced = true;
+                }
                 if (forced)
                     console.log("Scroll bar restored")
             }
