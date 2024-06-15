@@ -9,7 +9,7 @@ async function ForceShowScrollBar(tab) {
                     forced = true;
                 }
                 if (document.documentElement.style.overflow == "hidden") {
-                    document.body.style.overflow = "";
+                    document.documentElement.style.overflow = "";
                     forced = true;
                 }
                 if (forced)
