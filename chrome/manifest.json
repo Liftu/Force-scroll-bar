@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Force scroll bar",
+  "version": "1.1",
+  "description": "Force show the scroll bar of any website.",
+  "homepage_url": "https://github.com/Liftu/Force-scroll-bar",
+  "icons": {
+    "48": "icons/scroll-bar-48.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": "icons/scroll-bar-48.png",
+    "default_title": "Force show scroll bar"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
